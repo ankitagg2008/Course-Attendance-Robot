@@ -173,6 +173,10 @@ Face Recognition is a Python library that can be used to recognize and manipulat
 | 69         | 2           | 2              | 1                             | 1                          | 100.00%                   |
 |          |   Mean Detection Accuracy         |    99.4%           |                              | Mean Recognition Accuracy                          | 90.30%                   |
 
+
+## Demo:
+
+
 ## Technical Information:
 
 - **Programming Language**: Python
