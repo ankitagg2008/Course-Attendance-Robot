@@ -175,7 +175,7 @@ Face Recognition is a Python library that can be used to recognize and manipulat
 
 
 ## Demo:
-
+https://github.com/ankitagg2008/Course-Attendance-Robot/assets/62828547/c5277758-1fc2-4541-8644-7c36bebe837e
 
 ## Technical Information:
 
