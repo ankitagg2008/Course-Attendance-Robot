@@ -140,7 +140,7 @@
         <body class="vscode-body vscode-light">
             <h1 id="course-attendance-robot">Course Attendance Robot</h1>
 <div align="center">
-    <a><img width="720" src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\face-recognition-attendance-system.jpg" alt="soft"></a>
+    <a><img width="720" src="images/face-recognition-attendance-system.jpg" alt="soft"></a>
 </div>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
@@ -186,15 +186,15 @@
 <p>Users can also use a web-based graphical interface, to upload classroom images to perform automatic attendance and save the results directly into a CSV file.</p>
 <h3 id="website-screenshots">Website Screenshots</h3>
 <figure align="center"> 
-  <img src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\AddCourse.png" alt="drawing" height="400"/>
+  <img src="images/AddCourse.png" alt="drawing" height="400"/>
   <figcaption>Screen to Facilitate Course Addition</figcaption>
 </figure>
 <figure align="center"> 
-  <img src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\CaptureAttendance.jpg" alt="drawing" height="400"/>
+  <img src="images/CaptureAttendance.jpg" alt="drawing" height="400"/>
   <figcaption>Screen to Capture Course Attendance</figcaption>
 </figure>
 <figure align="center"> 
-  <img src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\RecordAttendance.jpg" alt="drawing" height="400"/>
+  <img src="images/RecordAttendance.jpg" alt="drawing" height="400"/>
   <figcaption>Screen to Modify, Save or Download Attendance CSV.</figcaption>
 </figure>
 <h2 id="datasets">Datasets:</h2>
@@ -202,12 +202,12 @@
 <p>To assess the efficacy of the proposed system, a dataset containing thirty-six students was compiled. Facial images of volunteer students are captured using a laptop web camera and saved in a folder. The dataset utilized in this investigation encompasses 100 images for a sample size of thirty-six (36) students totaling 3,600 images, exhibiting a variety of poses including front, left, and right facial features. The images were standardized to dimensions of 112 pixels in height and 112 pixels in width. Additionally, 69 class group photographs were captured to evaluate the individual recognition of students' faces within group settings.</p>
 <h3 id="raw-images">Raw Images:</h3>
 <figure align="center"> 
-  <img src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\training112.png" alt="drawing" height="400"/>
+  <img src="images/training112.png" alt="drawing" height="400"/>
   <figcaption>Raw Images of Dimension 112x112</figcaption>
 </figure>
 <h3 id="processed-images">Processed Images:</h3>
 <figure align="center"> 
-  <img src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\training50.png" alt="drawing" height="400"/>
+  <img src="images/training50.png" alt="drawing" height="400"/>
   <figcaption>Processed Images Ready for Embeddings 50x50</figcaption>
 </figure>
 <h2 id="method">Method:</h2>
@@ -215,14 +215,14 @@
 <p>RetinaFace is a robust single-stage face detector that performs pixel-wise face localization on various scales of faces by taking advantage of joint extra-supervised and self-supervised multi-task learning.</p>
 <h3 id="detected-faces">Detected Faces:</h3>
 <figure align="center"> 
-  <img src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\15_Detection.jpg" alt="drawing" height="720"/>
+  <img src="images/15_Detection.jpg" alt="drawing" height="720"/>
   <figcaption>RetinaFace detection output on Classroom Image</figcaption>
 </figure>
 <h3 id="face-recognition">Face Recognition:</h3>
 <p>Face Recognition is a Python library that can be used to recognize and manipulate faces. It is built on top of Dlib modern C++ toolkit that contains machine-learning algorithms and tools for creating complex software in C++ to solve real-world problems. As a part of facial recognition, after the facial images have been extracted, cropped, resized, and often converted to grayscale, the face recognition algorithm takes on the task of identifying features that most accurately represent the image.</p>
 <h3 id="recognized-faces">Recognized Faces:</h3>
 <figure align="center"> 
-  <img src="file:///c:\Users\vijay\OneDrive\Documents\1. Spring Semester\3. AI Applications\FR_Website\images\15_predicted.jpg" alt="drawing" height="720"/>
+  <img src="images/15_predicted.jpg" alt="drawing" height="720"/>
   <figcaption>Face Recognition on group image</figcaption>
 </figure>
 <h2 id="implementation">Implementation:</h2>
